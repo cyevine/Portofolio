@@ -6,10 +6,10 @@ function chooseOption(option) {
         dialogText.innerText = "This is my catalog. U can take a look, no worries!";
         character.src = "character-smile.png"; // Ganti ekspresi karakter
     } else if (option === 'gallery') {
-        dialogText.innerText = "This is my personal drawing";
+        dialogText.innerText = "Here's my drawing ^^";
         character.src = "character-happy.png";
     } else if (option === 'wip') {
-        dialogText.innerText = "My WIP";
+        dialogText.innerText = "My WIP commision";
         character.src = "character-thinking.png";
     }
 }
