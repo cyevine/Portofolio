@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Visual Novel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img id="character" src="character-neutral.png" alt="Karakter" class="character">
+        <div class="dialog-box">
+            <p id="dialog-text">what do u want?</p>
+            <div class="choices">
+                <button onclick="chooseOption('commission')">Commission</button>
+                <button onclick="chooseOption('gallery')">Gallery</button>
+                <button onclick="chooseOption('wip')">Work in Progress</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
